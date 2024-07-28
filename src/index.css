@@ -1,0 +1,26 @@
+:root {
+    --white: #fff;
+    --black: #182339;
+    --primary: #61ecbc;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Kanit", sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    width: 95%;
+}
