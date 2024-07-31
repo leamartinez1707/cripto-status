@@ -1,10 +1,10 @@
 import { Currency } from "../types"
 
 export const currencies: Currency[] = [
+    { code: 'UYU', name: 'Peso Uruguayo' },
     { code: 'USD', name: 'Dolar de Estados Unidos' },
-    { code: 'MXN', name: 'Peso Mexicano' },
-    { code: 'EUR', name: 'Euro' },
     { code: 'GBP', name: 'Libra Esterlina' },
-    { code: 'ARS', name: 'Peso Argentino' },
-    { code: 'UYU', name: 'Peso Uruguayo' }
+    { code: 'EUR', name: 'Euro' },
+    { code: 'MXN', name: 'Peso Mexicano' },
+    { code: 'ARS', name: 'Peso Argentino' }
 ]
