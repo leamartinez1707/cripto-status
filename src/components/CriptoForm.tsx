@@ -54,7 +54,7 @@ export const CriptoForm = () => {
             </div>
             <div className="field">
                 <label
-                    htmlFor="cryptocurrency">Moneda: </label>
+                    htmlFor="cryptocurrency">Criptomoneda: </label>
                 <select
                     onChange={handleChange}
                     name="cryptocurrency" id="cryptocurrency"
